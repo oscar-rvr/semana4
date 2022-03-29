@@ -1,0 +1,28 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image: url("../img/fondo.png");
+    }
+    
+    .logo-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #logo {
+        width: 330px;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .face-0 {
+        background-color: rgb(209, 1, 1);
+        height: 300px;
+    }
